@@ -10,3 +10,4 @@ jobs:
         SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
       with:
         image: zimbres/ubuntu-wine-dotnet48
+        args: --severity-threshold=high
